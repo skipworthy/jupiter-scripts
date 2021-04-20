@@ -1,0 +1,5 @@
+rsync -vrlpuh /home/skipworthy/* /bak/jupiter/home/
+
+rsync -vrlpuh /etc /bak/jupiter/etc/
+
+rsync -vrlpuh /moon/iso /bak/jupiter/iso/

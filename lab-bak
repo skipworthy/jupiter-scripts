@@ -1,0 +1,11 @@
+
+./labscripts/stopall.sh
+
+wait 20
+
+rsync -vrlpuh /moon/vm-lab /bak/jupiter/lab 
+
+
+./labscripts/startall.sh
+
+
